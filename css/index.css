@@ -24,7 +24,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: flex;
+	
 }
 body {
 	line-height: 1;
@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
+nav {
+    display: flex; 
+}
+
 header nav {
   display: flex; 
   width: 691px;
@@ -97,9 +101,14 @@ header nav a:last-child {
 
 header .logo {
   margin-top: 25px;
+  margin-left: 50px;
 }
 
 /* cta */
+
+.cta {
+    display: flex;
+}
 
 .cta .cta-text {
   display: flex;
@@ -122,6 +131,7 @@ header .logo {
   cursor: pointer;
   width: 50%;
   height: 55px;
+  margin-left: 75px;
 }
 
 .cta .cta-text button:hover {
