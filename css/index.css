@@ -169,6 +169,10 @@ header .logo {
   margin-top: 45px;
 }
 
+.bottom-content {
+  display: flex;
+}
+
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
