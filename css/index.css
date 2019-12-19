@@ -204,7 +204,7 @@ footer {
 }
 
 /* Tablet */ 
-@media(max-width: 800px) {
+@media( max-width: 800px) {
 
     .container {
         width: 100%;
@@ -231,7 +231,7 @@ footer {
 }
 
 
-.container img {
+.circle-picture img  {
     display: none;
 } 
 
